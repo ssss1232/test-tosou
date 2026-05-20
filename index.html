@@ -3,24 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ホーム｜〇〇塗装</title>
-  <meta name="description" content="山形市・天童市・寒河江市・東根市周辺の外壁塗装・屋根塗装。AI無料診断・LINE相談・無料見積もり対応。">
+  <title>ホーム｜山形みらい塗装</title>
+  <meta name="description" content="山形みらい塗装のデモサイト。AI無料診断つき外壁塗装・屋根塗装ホームページ。">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="index.html"><span class="logo-mark">塗</span><span>〇〇塗装</span></a>
-    <button class="nav-toggle" aria-label="メニューを開く">☰</button>
+    <a href="index.html" class="logo">
+      <span class="logo-symbol">M</span>
+      <span>山形みらい塗装</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="メニュー">☰</button>
     <nav class="global-nav">
-      <a href="index.html">ホーム</a>
+      <a href="company.html">会社概要</a>
       <a href="gaiheki.html">外壁塗装</a>
       <a href="yane.html">屋根塗装</a>
       <a href="works.html">施工事例</a>
       <a href="faq.html">よくある質問</a>
-      <a href="company.html">会社概要</a>
-      <a class="nav-cta" href="contact.html">お問い合わせ</a>
+      <a href="contact.html">お問い合わせ</a>
     </nav>
   </div>
 </header>
@@ -28,137 +30,135 @@
 <main>
 
 <section class="hero">
-  <div class="container hero-grid">
-    <div class="hero-copy">
-      <p class="badge">山形市・天童市・寒河江市・東根市周辺対応</p>
-      <h1>外壁塗装・屋根塗装を、もっと分かりやすく安心に。</h1>
-      <p class="lead">地域密着の無料診断と、AIかんたん相談で住まいの不安をすぐ確認できます。</p>
-      <div class="btn-row">
-        <a class="btn primary" href="contact.html">無料見積もりする</a>
-        <button class="btn secondary open-ai" type="button">AI無料診断を試す</button>
-        <a class="btn line-btn" href="#">LINEで相談する</a>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="hero-en">Mirai Painting Corporation</p>
+      <h1><span>最善</span>の診断と<br><span>安心</span>の塗装を</h1>
+      <p class="hero-copy">外壁・屋根の不安を、AI無料診断と地域密着の現地調査で分かりやすく確認できます。</p>
+      <div class="hero-links">
+        <a href="gaiheki.html">外壁塗装</a>
+        <a href="yane.html">屋根塗装</a>
+        <a href="contact.html">無料見積り</a>
+        <button class="text-btn js-open-ai" type="button">AI診断</button>
       </div>
     </div>
-    <div class="hero-card">
-      <div class="house-visual">
-        <div class="roof"></div><div class="wall"></div><div class="window"></div><div class="door"></div>
-      </div>
-      <div class="mini-diagnosis">
-        <strong>AI診断デモ</strong>
-        <p>築15年以上・ひび割れあり → 早めの現地確認がおすすめ</p>
+    <div class="hero-visual">
+      <div class="visual-frame">
+        <div class="visual-roof"></div>
+        <div class="visual-wall"></div>
+        <div class="visual-window"></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section ai-section">
-  <div class="container split">
+<section class="service-section">
+  <div class="container">
+    <div class="section-lead">
+      <p class="en-title">OUR SERVICE</p>
+      <h2>皆さまが快適で心地よい生活を送るために<br>当社が全力でサポートします。</h2>
+      <p>塗装のタイミングを逃さず、美観を保ち、外部環境から住まいを守るためのご提案を行います。</p>
+    </div>
+
+    <div class="service-list">
+      <article class="service-item">
+        <div class="service-image paint"></div>
+        <div class="service-content">
+          <p class="service-en">Painting</p>
+          <h3>外壁塗装</h3>
+          <p>色あせ・チョーキング・ひび割れ・シーリング劣化など、外壁の状態を丁寧に確認します。</p>
+          <a href="gaiheki.html">詳しく見る ▶</a>
+        </div>
+      </article>
+      <article class="service-item reverse">
+        <div class="service-image roof"></div>
+        <div class="service-content">
+          <p class="service-en">Roof</p>
+          <h3>屋根塗装</h3>
+          <p>サビ・コケ・雨漏りリスクを確認し、屋根材に合わせた施工をご提案します。</p>
+          <a href="yane.html">詳しく見る ▶</a>
+        </div>
+      </article>
+      <article class="service-item">
+        <div class="service-image ai"></div>
+        <div class="service-content">
+          <p class="service-en">AI Diagnosis</p>
+          <h3>AI無料診断</h3>
+          <p>築年数と症状を選ぶだけで、劣化目安・費用目安・次の行動をかんたんに確認できます。</p>
+          <button class="text-btn js-open-ai" type="button">診断する ▶</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="wide-cta">
+  <div class="container wide-cta-inner">
     <div>
-      <p class="eyebrow">AI無料診断</p>
-      <h2>写真を送る前に、30秒で目安を確認。</h2>
-      <p>築年数・症状・相談内容を選ぶだけで、劣化レベル、料金目安、次にするべき行動を表示します。</p>
+      <p class="en-title">FREE CHECK</p>
+      <h2>あなたのお住まい、今どんな状態？</h2>
+      <p>塗り替え時期や料金目安を知りたい方は、まずはAI無料診断をお試しください。</p>
     </div>
-    <button class="btn primary open-ai" type="button">AI無料診断を開く</button>
+    <button class="btn primary js-open-ai" type="button">AI無料診断はこちら</button>
   </div>
 </section>
 
-<section class="section">
+<section class="portfolio-section">
   <div class="container">
-    <p class="eyebrow">選ばれる理由</p>
-    <h2>地域密着で、相談しやすい塗装店を目指しています。</h2>
-    <div class="card-grid four">
-      <div class="card"><span class="icon">📍</span><h3>地域密着</h3><p>山形市周辺の気候や住宅事情に合わせて提案します。</p></div>
-      <div class="card"><span class="icon">¥</span><h3>見積もり無料</h3><p>現地調査・お見積もりは無料。納得後に施工します。</p></div>
-      <div class="card"><span class="icon">🤝</span><h3>しつこい営業なし</h3><p>必要な工事を分かりやすく説明し、無理な営業はしません。</p></div>
-      <div class="card"><span class="icon">🏠</span><h3>外壁・屋根をまとめて相談</h3><p>足場を使う工事をまとめることで、費用を抑えやすくなります。</p></div>
+    <div class="section-title-row">
+      <div>
+        <p class="en-title">REMODEL PORTFOLIO</p>
+        <h2>施工イメージ</h2>
+      </div>
+      <a href="works.html">一覧を見る</a>
+    </div>
+    <div class="portfolio-grid">
+      <a href="works.html" class="portfolio-card">
+        <div class="before-after green"><span>Before</span><span>After</span></div>
+        <h3>外壁・屋根塗装</h3>
+      </a>
+      <a href="works.html" class="portfolio-card">
+        <div class="before-after navy"><span>Before</span><span>After</span></div>
+        <h3>屋根塗装</h3>
+      </a>
+      <a href="works.html" class="portfolio-card">
+        <div class="before-after beige"><span>Before</span><span>After</span></div>
+        <h3>防水・補修</h3>
+      </a>
     </div>
   </div>
 </section>
 
-<section class="section soft">
-  <div class="container">
-    <p class="eyebrow">サービス一覧</p>
-    <h2>住まいの外まわりをまとめてサポート。</h2>
-    <div class="card-grid three">
-      <a class="service-card" href="gaiheki.html"><div class="dummy-img green"></div><h3>外壁塗装</h3><p>色あせ・チョーキング・ひび割れを丁寧に確認。</p></a>
-      <a class="service-card" href="yane.html"><div class="dummy-img navy"></div><h3>屋根塗装</h3><p>サビ・コケ・雨漏りリスクを早めに点検。</p></a>
-      <a class="service-card" href="contact.html"><div class="dummy-img orange"></div><h3>防水・補修</h3><p>シーリング劣化やベランダ防水も相談可能。</p></a>
+<section class="news-section">
+  <div class="container news-grid">
+    <div>
+      <p class="en-title">NEWS</p>
+      <h2>お知らせ</h2>
+      <a href="#" class="news-more">一覧を見る</a>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <p class="eyebrow">料金目安</p>
-    <h2>事前におおよその費用感を確認できます。</h2>
-    <div class="price-grid">
-      <div class="price-card"><h3>外壁塗装</h3><p class="price">70万円〜120万円</p></div>
-      <div class="price-card"><h3>屋根塗装</h3><p class="price">30万円〜80万円</p></div>
-      <div class="price-card highlight"><h3>外壁＋屋根</h3><p class="price">100万円〜180万円</p></div>
-    </div>
-    <p class="note">※あくまで目安です。建物の大きさ、劣化状態、塗料の種類、足場条件により変動します。</p>
-  </div>
-</section>
-
-<section class="section soft">
-  <div class="container">
-    <div class="section-head"><div><p class="eyebrow">施工事例</p><h2>施工前後が分かる事例を掲載。</h2></div><a href="works.html">一覧を見る →</a></div>
-    <div class="card-grid three">
-      <div class="work-card"><div class="before-after"><span>Before</span><span>After</span></div><h3>山形市 A様邸</h3><p>外壁塗装・屋根塗装 / 約120万円</p></div>
-      <div class="work-card"><div class="before-after blue"><span>Before</span><span>After</span></div><h3>天童市 B様邸</h3><p>屋根塗装 / 約55万円</p></div>
-      <div class="work-card"><div class="before-after beige"><span>Before</span><span>After</span></div><h3>寒河江市 C様邸</h3><p>外壁塗装 / 約90万円</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-    <p class="eyebrow">お客様の声</p>
-    <div class="card-grid three">
-      <div class="voice card"><p>「写真で相談できたので、まず聞いてみようと思えました。」</p><strong>山形市・50代</strong></div>
-      <div class="voice card"><p>「料金目安を先に聞けたので安心でした。」</p><strong>天童市・40代</strong></div>
-      <div class="voice card"><p>「外壁と屋根を同時に相談できて助かりました。」</p><strong>東根市・60代</strong></div>
-    </div>
-  </div>
-</section>
-
-<section class="section soft">
-  <div class="container narrow">
-    <p class="eyebrow">よくある質問</p>
-    <h2>まずは無料で相談できます。</h2>
-    <details><summary>見積もりは無料ですか？</summary><p>はい。現地調査とお見積もりは無料です。</p></details>
-    <details><summary>写真だけで相談できますか？</summary><p>はい。LINEで写真を送ると、事前確認がスムーズです。</p></details>
-    <details><summary>しつこい営業はありますか？</summary><p>ありません。必要な工事を分かりやすく説明します。</p></details>
-  </div>
-</section>
-
-<section class="cta">
-  <div class="container cta-inner">
-    <h2>住まいの不安、まずは無料で確認しませんか？</h2>
-    <p>AI診断・LINE相談・電話相談から選べます。</p>
-    <div class="btn-row center">
-      <button class="btn primary open-ai" type="button">AI無料診断</button>
-      <a class="btn secondary" href="contact.html">無料見積もりフォーム</a>
-      <a class="btn line-btn" href="#">LINEで写真を送る</a>
+    <div class="news-list">
+      <a href="#"><span>2026.05.20</span><strong>梅雨前の外壁・屋根点検受付を開始しました。</strong></a>
+      <a href="#"><span>2026.04.10</span><strong>LINE写真相談の受付を開始しました。</strong></a>
+      <a href="#"><span>2026.03.01</span><strong>施工イメージを追加しました。</strong></a>
     </div>
   </div>
 </section>
 
 </main>
 
-<div class="floating-actions">
-  <button class="float-btn ai open-ai" type="button">AI無料診断</button>
-  <a class="float-btn line" href="#" aria-label="LINE相談">LINE相談</a>
-  <a class="float-btn tel" href="tel:0120000000">電話相談</a>
+<div class="fixed-actions">
+  <button class="fixed-action ai js-open-ai" type="button">AI無料診断</button>
+  <a class="fixed-action line" href="#">LINE相談</a>
+  <a class="fixed-action tel" href="tel:0120000000">電話相談</a>
 </div>
 
 <div class="ai-modal" id="aiModal" aria-hidden="true">
-  <div class="ai-modal-bg close-ai"></div>
-  <div class="ai-modal-panel" role="dialog" aria-modal="true" aria-labelledby="aiTitle">
-    <button class="ai-close close-ai" type="button">×</button>
-    <p class="eyebrow">無料・30秒</p>
-    <h2 id="aiTitle">AIかんたん外壁・屋根診断</h2>
-    <p class="muted">選択内容から、劣化レベル・料金目安・次の行動を表示します。実際の判断は現地確認が必要です。</p>
+  <div class="ai-bg js-close-ai"></div>
+  <div class="ai-box" role="dialog" aria-modal="true">
+    <button class="ai-close js-close-ai" type="button">×</button>
+    <p class="en-title">AI DIAGNOSIS</p>
+    <h2>外壁・屋根のかんたん診断</h2>
+    <p class="muted">築年数と症状を選ぶだけで、劣化目安・料金目安・次の行動を表示します。</p>
     <form id="aiForm" class="ai-form">
       <label>築年数
         <select name="age" required>
@@ -180,7 +180,7 @@
           <option>よく分からない</option>
         </select>
       </label>
-      <label>相談したい内容
+      <label>相談内容
         <select name="target" required>
           <option value="">選択してください</option>
           <option>外壁塗装</option>
@@ -189,7 +189,7 @@
           <option>まず相談したい</option>
         </select>
       </label>
-      <label>連絡方法
+      <label>希望連絡方法
         <select name="contact" required>
           <option value="">選択してください</option>
           <option>電話</option>
@@ -197,30 +197,50 @@
           <option>LINE</option>
         </select>
       </label>
-      <button class="btn primary full" type="submit">診断結果を見る</button>
+      <button class="btn primary wide" type="submit">診断結果を見る</button>
     </form>
     <div id="aiResult" class="ai-result" hidden></div>
   </div>
 </div>
 
 
-<footer class="site-footer">
-  <div class="container footer-grid">
+<section class="bottom-contact">
+  <div class="container bottom-contact-grid">
     <div>
-      <h3>〇〇塗装</h3>
-      <p>山形市・天童市・寒河江市・東根市周辺の外壁塗装・屋根塗装はお任せください。</p>
+      <p class="en-title">CONTACT</p>
+      <h2>ご相談・お見積もりは<br>お気軽にどうぞ。</h2>
+      <p>山形市・天童市・寒河江市・東根市周辺 の外壁塗装・屋根塗装に対応しています。</p>
     </div>
-    <div>
-      <h4>無料相談</h4>
-      <p class="footer-tel">0120-000-000</p>
-      <p>受付時間 8:00〜18:00 / 不定休</p>
-    </div>
-    <div>
-      <h4>対応エリア</h4>
-      <p>山形市・天童市・寒河江市・東根市周辺</p>
+    <div class="contact-buttons">
+      <a class="tel-card" href="tel:0120000000">
+        <span>電話でお問い合わせ</span>
+        <strong>0120-000-000</strong>
+      </a>
+      <a class="form-card" href="contact.html">
+        <span>フォームからのお問い合わせ</span>
+        <strong>お問い合わせフォーム</strong>
+      </a>
+      <button class="form-card js-open-ai" type="button">
+        <span>30秒で確認</span>
+        <strong>AI無料診断</strong>
+      </button>
     </div>
   </div>
-  <p class="copyright">© 〇〇塗装 Demo Site</p>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a href="index.html" class="footer-logo">山形みらい塗装</a>
+      <p>快適で心地よい生活を送るために、最善のご提案と品質ある施工を心がけています。</p>
+    </div>
+    <div>
+      <p>〒990-0000 山形県山形市〇〇町0-0-0</p>
+      <p>営業時間 9:00-18:00</p>
+      <p>0120-000-000</p>
+    </div>
+  </div>
+  <p class="copyright">2026 © 山形みらい塗装 Demo Site.</p>
 </footer>
 
 <script src="script.js"></script>

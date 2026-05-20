@@ -3,76 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お問い合わせ｜〇〇塗装</title>
-  <meta name="description" content="山形市・天童市・寒河江市・東根市周辺の外壁塗装・屋根塗装。AI無料診断・LINE相談・無料見積もり対応。">
+  <title>お問い合わせ｜山形みらい塗装</title>
+  <meta name="description" content="山形みらい塗装のデモサイト。AI無料診断つき外壁塗装・屋根塗装ホームページ。">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="index.html"><span class="logo-mark">塗</span><span>〇〇塗装</span></a>
-    <button class="nav-toggle" aria-label="メニューを開く">☰</button>
+    <a href="index.html" class="logo">
+      <span class="logo-symbol">M</span>
+      <span>山形みらい塗装</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="メニュー">☰</button>
     <nav class="global-nav">
-      <a href="index.html">ホーム</a>
+      <a href="company.html">会社概要</a>
       <a href="gaiheki.html">外壁塗装</a>
       <a href="yane.html">屋根塗装</a>
       <a href="works.html">施工事例</a>
       <a href="faq.html">よくある質問</a>
-      <a href="company.html">会社概要</a>
-      <a class="nav-cta" href="contact.html">お問い合わせ</a>
+      <a href="contact.html">お問い合わせ</a>
     </nav>
   </div>
 </header>
 
 <main>
 
-<section class="page-hero"><div class="container"><p class="eyebrow">お問い合わせ</p><h1>無料見積もり・写真相談はこちら。</h1><p>外壁・屋根の状態が分からない場合も、まずはお気軽にご相談ください。写真をLINEで送るとよりスムーズです。</p></div></section>
-<section class="section">
+<section class="sub-hero">
+  <div class="container">
+    <p class="en-title">CONTACT</p>
+    <h1>お問い合わせ</h1>
+    <p>無料見積り・LINE写真相談・AI診断をご利用いただけます。</p>
+  </div>
+</section>
+
+<section class="content-section">
   <div class="container contact-grid">
     <form class="contact-form" action="https://formspree.io/f/your-id" method="POST">
       <h2>無料見積もりフォーム</h2>
       <label>お名前<input type="text" name="name" required></label>
       <label>電話番号<input type="tel" name="tel" required></label>
       <label>メールアドレス<input type="email" name="email"></label>
-      <label>住所またはエリア<input type="text" name="area" placeholder="例：山形市〇〇町"></label>
-      <label>相談内容<textarea name="message" rows="5" placeholder="外壁のひび割れ、屋根のサビなど"></textarea></label>
+      <label>住所またはエリア<input type="text" name="area"></label>
+      <label>相談内容<textarea name="message" rows="5"></textarea></label>
       <label>希望する連絡方法
-        <select name="contact_method">
-          <option>電話</option><option>メール</option><option>LINE</option>
-        </select>
+        <select name="contact_method"><option>電話</option><option>メール</option><option>LINE</option></select>
       </label>
       <label>建物の状態
-        <select name="condition">
-          <option>色あせが気になる</option><option>ひび割れがある</option><option>コケ・カビがある</option><option>雨漏りがある</option><option>よく分からない</option>
-        </select>
+        <select name="condition"><option>色あせ</option><option>ひび割れ</option><option>コケ・カビ</option><option>雨漏り</option><option>よく分からない</option></select>
       </label>
       <p class="privacy">送信いただいた個人情報は、お問い合わせ対応・見積もり連絡の目的でのみ使用します。</p>
-      <button class="btn primary full" type="submit">送信する</button>
+      <button class="btn primary wide" type="submit">送信する</button>
     </form>
     <aside class="contact-side">
-      <div class="card accent"><h3>写真をLINEで送るとスムーズです</h3><p>外壁・屋根・気になる箇所の写真を送っていただくと、現地調査前の確認がしやすくなります。</p><a class="btn line-btn full" href="#">LINE相談ボタン</a></div>
-      <div class="card"><h3>電話相談</h3><p class="big-tel">0120-000-000</p><p>受付時間 8:00〜18:00</p><a class="btn secondary full" href="tel:0120000000">電話する</a></div>
-      <div class="card"><h3>AI無料診断</h3><p>築年数と症状から、今すぐ目安を確認できます。</p><button class="btn primary full open-ai">AI診断を試す</button></div>
+      <a class="tel-card" href="tel:0120000000"><span>電話でお問い合わせ</span><strong>0120-000-000</strong></a>
+      <a class="form-card" href="#"><span>LINEで写真相談</span><strong>LINE相談</strong></a>
+      <button class="form-card js-open-ai" type="button"><span>30秒で確認</span><strong>AI無料診断</strong></button>
     </aside>
   </div>
 </section>
 
 </main>
 
-<div class="floating-actions">
-  <button class="float-btn ai open-ai" type="button">AI無料診断</button>
-  <a class="float-btn line" href="#" aria-label="LINE相談">LINE相談</a>
-  <a class="float-btn tel" href="tel:0120000000">電話相談</a>
+<div class="fixed-actions">
+  <button class="fixed-action ai js-open-ai" type="button">AI無料診断</button>
+  <a class="fixed-action line" href="#">LINE相談</a>
+  <a class="fixed-action tel" href="tel:0120000000">電話相談</a>
 </div>
 
 <div class="ai-modal" id="aiModal" aria-hidden="true">
-  <div class="ai-modal-bg close-ai"></div>
-  <div class="ai-modal-panel" role="dialog" aria-modal="true" aria-labelledby="aiTitle">
-    <button class="ai-close close-ai" type="button">×</button>
-    <p class="eyebrow">無料・30秒</p>
-    <h2 id="aiTitle">AIかんたん外壁・屋根診断</h2>
-    <p class="muted">選択内容から、劣化レベル・料金目安・次の行動を表示します。実際の判断は現地確認が必要です。</p>
+  <div class="ai-bg js-close-ai"></div>
+  <div class="ai-box" role="dialog" aria-modal="true">
+    <button class="ai-close js-close-ai" type="button">×</button>
+    <p class="en-title">AI DIAGNOSIS</p>
+    <h2>外壁・屋根のかんたん診断</h2>
+    <p class="muted">築年数と症状を選ぶだけで、劣化目安・料金目安・次の行動を表示します。</p>
     <form id="aiForm" class="ai-form">
       <label>築年数
         <select name="age" required>
@@ -94,7 +99,7 @@
           <option>よく分からない</option>
         </select>
       </label>
-      <label>相談したい内容
+      <label>相談内容
         <select name="target" required>
           <option value="">選択してください</option>
           <option>外壁塗装</option>
@@ -103,7 +108,7 @@
           <option>まず相談したい</option>
         </select>
       </label>
-      <label>連絡方法
+      <label>希望連絡方法
         <select name="contact" required>
           <option value="">選択してください</option>
           <option>電話</option>
@@ -111,30 +116,50 @@
           <option>LINE</option>
         </select>
       </label>
-      <button class="btn primary full" type="submit">診断結果を見る</button>
+      <button class="btn primary wide" type="submit">診断結果を見る</button>
     </form>
     <div id="aiResult" class="ai-result" hidden></div>
   </div>
 </div>
 
 
-<footer class="site-footer">
-  <div class="container footer-grid">
+<section class="bottom-contact">
+  <div class="container bottom-contact-grid">
     <div>
-      <h3>〇〇塗装</h3>
-      <p>山形市・天童市・寒河江市・東根市周辺の外壁塗装・屋根塗装はお任せください。</p>
+      <p class="en-title">CONTACT</p>
+      <h2>ご相談・お見積もりは<br>お気軽にどうぞ。</h2>
+      <p>山形市・天童市・寒河江市・東根市周辺 の外壁塗装・屋根塗装に対応しています。</p>
     </div>
-    <div>
-      <h4>無料相談</h4>
-      <p class="footer-tel">0120-000-000</p>
-      <p>受付時間 8:00〜18:00 / 不定休</p>
-    </div>
-    <div>
-      <h4>対応エリア</h4>
-      <p>山形市・天童市・寒河江市・東根市周辺</p>
+    <div class="contact-buttons">
+      <a class="tel-card" href="tel:0120000000">
+        <span>電話でお問い合わせ</span>
+        <strong>0120-000-000</strong>
+      </a>
+      <a class="form-card" href="contact.html">
+        <span>フォームからのお問い合わせ</span>
+        <strong>お問い合わせフォーム</strong>
+      </a>
+      <button class="form-card js-open-ai" type="button">
+        <span>30秒で確認</span>
+        <strong>AI無料診断</strong>
+      </button>
     </div>
   </div>
-  <p class="copyright">© 〇〇塗装 Demo Site</p>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <a href="index.html" class="footer-logo">山形みらい塗装</a>
+      <p>快適で心地よい生活を送るために、最善のご提案と品質ある施工を心がけています。</p>
+    </div>
+    <div>
+      <p>〒990-0000 山形県山形市〇〇町0-0-0</p>
+      <p>営業時間 9:00-18:00</p>
+      <p>0120-000-000</p>
+    </div>
+  </div>
+  <p class="copyright">2026 © 山形みらい塗装 Demo Site.</p>
 </footer>
 
 <script src="script.js"></script>
