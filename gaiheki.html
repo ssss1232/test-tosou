@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>外壁塗装｜〇〇塗装</title>
+  <meta name="description" content="山形市・天童市・寒河江市・東根市周辺の外壁塗装・屋根塗装。AI無料診断・LINE相談・無料見積もり対応。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><span class="logo-mark">塗</span><span>〇〇塗装</span></a>
+    <button class="nav-toggle" aria-label="メニューを開く">☰</button>
+    <nav class="global-nav">
+      <a href="index.html">ホーム</a>
+      <a href="gaiheki.html">外壁塗装</a>
+      <a href="yane.html">屋根塗装</a>
+      <a href="works.html">施工事例</a>
+      <a href="faq.html">よくある質問</a>
+      <a href="company.html">会社概要</a>
+      <a class="nav-cta" href="contact.html">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">外壁塗装</p>
+    <h1>外壁の劣化サインを見逃さず、住まいを長持ちさせます。</h1>
+    <p>色あせ・チョーキング・ひび割れ・コケやカビなど、外壁の状態に合わせて最適な塗料と施工方法をご提案します。</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>外壁塗装が必要なサイン</h2>
+    <div class="card-grid five">
+      <div class="card"><h3>色あせ</h3><p>塗膜の防水性が落ち始めている可能性があります。</p></div>
+      <div class="card"><h3>チョーキング</h3><p>外壁を触ると白い粉がつく状態です。</p></div>
+      <div class="card"><h3>ひび割れ</h3><p>雨水が入りやすくなるため早めの確認が必要です。</p></div>
+      <div class="card"><h3>コケ・カビ</h3><p>湿気が多い面や日当たりの弱い面に出やすい症状です。</p></div>
+      <div class="card"><h3>シーリング劣化</h3><p>隙間から水が入りやすくなるため補修が必要です。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container">
+    <h2>外壁塗装の流れ</h2>
+    <ol class="timeline">
+      <li>無料相談</li><li>現地調査</li><li>見積もり</li><li>色・塗料の打ち合わせ</li><li>足場設置</li><li>高圧洗浄</li><li>下地補修</li><li>下塗り・中塗り・上塗り</li><li>完了確認</li>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">料金目安</p>
+      <h2>外壁塗装：70万円〜120万円</h2>
+      <p>建物の大きさ、劣化状態、塗料グレード、足場条件によって変動します。まずはAI診断または無料見積もりで目安を確認できます。</p>
+    </div>
+    <div class="card accent"><h3>迷ったらAI診断</h3><p>築年数と症状を選ぶだけで、外壁塗装の検討時期を確認できます。</p><button class="btn primary open-ai">AI相談する</button></div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="container">
+    <h2>塗料の種類</h2>
+    <div class="card-grid four">
+      <div class="card"><h3>シリコン</h3><p>費用と耐久性のバランスが良い定番塗料です。</p></div>
+      <div class="card"><h3>ラジカル</h3><p>チョーキングを抑えやすく、近年選ばれやすい塗料です。</p></div>
+      <div class="card"><h3>フッ素</h3><p>耐久性を重視したい方に向いています。</p></div>
+      <div class="card"><h3>無機</h3><p>高耐久で長く美観を保ちたい場合におすすめです。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta"><div class="container cta-inner"><h2>外壁の状態が気になったら、無料で確認できます。</h2><div class="btn-row center"><button class="btn primary open-ai">AI相談CTA</button><a class="btn secondary" href="contact.html">無料見積もりCTA</a></div></div></section>
+
+</main>
+
+<div class="floating-actions">
+  <button class="float-btn ai open-ai" type="button">AI無料診断</button>
+  <a class="float-btn line" href="#" aria-label="LINE相談">LINE相談</a>
+  <a class="float-btn tel" href="tel:0120000000">電話相談</a>
+</div>
+
+<div class="ai-modal" id="aiModal" aria-hidden="true">
+  <div class="ai-modal-bg close-ai"></div>
+  <div class="ai-modal-panel" role="dialog" aria-modal="true" aria-labelledby="aiTitle">
+    <button class="ai-close close-ai" type="button">×</button>
+    <p class="eyebrow">無料・30秒</p>
+    <h2 id="aiTitle">AIかんたん外壁・屋根診断</h2>
+    <p class="muted">選択内容から、劣化レベル・料金目安・次の行動を表示します。実際の判断は現地確認が必要です。</p>
+    <form id="aiForm" class="ai-form">
+      <label>築年数
+        <select name="age" required>
+          <option value="">選択してください</option>
+          <option>10年未満</option>
+          <option>10〜15年</option>
+          <option>15〜20年</option>
+          <option>20年以上</option>
+        </select>
+      </label>
+      <label>気になる症状
+        <select name="symptom" required>
+          <option value="">選択してください</option>
+          <option>色あせ</option>
+          <option>ひび割れ</option>
+          <option>コケ・カビ</option>
+          <option>チョーキング</option>
+          <option>雨漏り</option>
+          <option>よく分からない</option>
+        </select>
+      </label>
+      <label>相談したい内容
+        <select name="target" required>
+          <option value="">選択してください</option>
+          <option>外壁塗装</option>
+          <option>屋根塗装</option>
+          <option>外壁と屋根</option>
+          <option>まず相談したい</option>
+        </select>
+      </label>
+      <label>連絡方法
+        <select name="contact" required>
+          <option value="">選択してください</option>
+          <option>電話</option>
+          <option>メール</option>
+          <option>LINE</option>
+        </select>
+      </label>
+      <button class="btn primary full" type="submit">診断結果を見る</button>
+    </form>
+    <div id="aiResult" class="ai-result" hidden></div>
+  </div>
+</div>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>〇〇塗装</h3>
+      <p>山形市・天童市・寒河江市・東根市周辺の外壁塗装・屋根塗装はお任せください。</p>
+    </div>
+    <div>
+      <h4>無料相談</h4>
+      <p class="footer-tel">0120-000-000</p>
+      <p>受付時間 8:00〜18:00 / 不定休</p>
+    </div>
+    <div>
+      <h4>対応エリア</h4>
+      <p>山形市・天童市・寒河江市・東根市周辺</p>
+    </div>
+  </div>
+  <p class="copyright">© 〇〇塗装 Demo Site</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
